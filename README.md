@@ -11,16 +11,16 @@
             padding: 20px;
         }
         .product {
-            display: inline-block;
+            display: inline-whiet;
             border: 1px solid #ddd;
             padding: 10px;
-            margin: 10px;
+            margin: 50px;
             width: 200px;
         }
         button {
             padding: 10px;
             background-color: #28a745;
-            color: white;
+            color: green;
             border: none;
             cursor: pointer;
         }
@@ -32,7 +32,7 @@
 <body>
     <h1>Welcome to My Shopping Website</h1>
     <div class="product">
-        <h2>Product 1</h2>
+        <h2>Product clothes>
         <p>Price: $10</p>
         <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
     </div>
